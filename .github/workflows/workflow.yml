@@ -40,8 +40,8 @@ jobs:
       with:
         onf-access-key: "${{ secrets.ONF_ACCESS_KEY }}"
         onf-secret-key: "${{ secrets.ONF_SECRET_KEY }}"
-        onf-workspace-id: "6840477742517940224"
-        onf-network-key: e0ddf753-d852-4175-8a66-5eaaf385fc4b 
+        onf-workspace-id: "6729563711177248768"
+        onf-network-key: 690d878b-827c-4eda-a1ee-5c7b8223cbb1 
         onf-sub-command: node # node, image
         onf-action: upgrade # upgrade, add
         image-version: ${{ steps.onf-version.outputs.text }}
